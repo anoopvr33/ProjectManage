@@ -1,0 +1,37 @@
+.task-view h3 {
+  margin: auto;
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-left: 10px;
+}
+
+.task-view .contents {
+  margin-top: 20px;
+  /* background-color: antiquewhite; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 10px;
+  padding-right: 10px;
+  gap: 15px;
+}
+
+.task-view .contents .content-img {
+  width: 100%;
+  height: 150px;
+  overflow-x: scroll;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* background-color: antiquewhite; */
+}
+.task-view .contents img {
+  height: 150px;
+}
+
+.task-view .contents .content-img::-webkit-scrollbar {
+  width: 0px;
+}

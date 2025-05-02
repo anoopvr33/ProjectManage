@@ -1,0 +1,105 @@
+.admin-dashboard-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+.admin-dashboard-3 .buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* background-color: antiquewhite; */
+}
+.admin-dashboard-3 .buttons button {
+  width: 130px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.admin-dashboard-3 .projects {
+  border: 2px solid rgb(201, 191, 232);
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  /* gap: 5px;. */
+  padding: 5px 10px;
+}
+.admin-dashboard-3 .projects a {
+  text-decoration: none;
+}
+.admin-dashboard-3 .projects p {
+  width: 100%;
+  /* background-color: antiquewhite; */
+  line-break: anywhere;
+  /* font-size: 12px; */
+}
+.admin-dashboard-3 .projects .h4 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  /* padding-top: 2px; */
+  /* background-color: aqua; */
+}
+.admin-dashboard-3 .projects .h4 p {
+  font-weight: 400;
+}
+.admin-dashboard-3 .projects span {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+.admin-dashboard-3 .projects img {
+  background-color: aqua;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.admin-dashboard-3 .projects .pro-btn {
+  /* background-color: aquamarine; */
+  margin-top: 5px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+}
+
+.admin-dashboard-3 .projects button {
+  width: 80px;
+  padding: 2px 10px;
+}
+.admin-dashboard-3 .task-main {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  gap: 5px;
+}
+
+.admin-dashboard-3 .task-1 span {
+  font-weight: 300;
+  float: right;
+  padding: 0px 5px 0px 10px;
+}
+.admin-dashboard-3 .task-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(230, 230, 230);
+  margin-top: 2px;
+}
+@media screen and (min-width: 700px) {
+  .admin-dashboard-3 .projects {
+    width: 30%;
+    margin: auto;
+  }
+  .admin-dashboard-3 .buttons {
+    justify-content: center;
+    width: 100%;
+  }
+}
