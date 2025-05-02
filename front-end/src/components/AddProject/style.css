@@ -1,0 +1,172 @@
+.add-project {
+  /* background-color: antiquewhite; */
+  width: 100%;
+  height: 70vh;
+  margin: auto;
+  margin-top: 50px;
+  gap: 10px;
+}
+
+.add-project h3 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.add-project form {
+  /* background-color: aliceblue; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.add-project label {
+  font-size: 12px;
+  background-color: rgba(255, 255, 255, 0);
+}
+.add-project p {
+  width: 250px;
+  font-size: smaller;
+  color: red;
+}
+.add-project input {
+  height: 35px;
+  width: 300px;
+  border: none;
+  background-color: rgb(240, 240, 240);
+  border-bottom: 1px solid grey;
+  border-radius: 5px;
+  padding-left: 14px;
+}
+.add-project option {
+  width: 100px;
+  background-color: antiquewhite;
+}
+.add-project textarea {
+  height: 50px;
+  width: 300px;
+  border: none;
+  background-color: rgb(240, 240, 240);
+  border-bottom: 1px solid grey;
+  border-radius: 5px;
+  padding-left: 14px;
+  padding-top: 6px;
+}
+.add-project button {
+  padding: 3px 10px;
+  width: 300px;
+  border: none;
+  padding: 10px;
+  background-color: rgb(56, 56, 56);
+  color: white;
+  border-radius: 5px;
+}
+
+.add-project .add-photo-1 {
+  background-color: rgb(237, 237, 237);
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.add-project .poster-added {
+  width: 200px;
+  height: 200px;
+  background-color: gainsboro;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-project .poster-added img {
+  max-width: 200px;
+  max-height: 200px;
+}
+.add-project .poster-added i {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.add-project .fa-image {
+  font-size: 40px;
+}
+
+.add-project form .select {
+  height: 55px;
+  padding-top: 10px;
+  width: 300px;
+  border: none;
+  background-color: rgb(240, 240, 240);
+  border-bottom: 1px solid grey;
+  border-radius: 5px;
+  /* padding: 0px 14px; */
+  padding-left: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: scroll;
+  /* text-overflow: clip; */
+  white-space: nowrap;
+  position: relative;
+}
+
+.add-project form .select .fa-angle-down {
+  position: sticky;
+  /* background-color: aqua; */
+  background-color: rgb(240, 240, 240);
+  border-radius: 5px;
+  padding: 8px;
+  right: 0px;
+}
+.add-project form .select .fa-xmark {
+  padding-top: 1px;
+  /* background-color: rgb(193, 70, 107); */
+}
+.add-project form .select .array {
+  /* background-color: aqua; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  overflow-x: scroll;
+}
+.add-project form .select td {
+  border: 1px solid black;
+  padding: 1px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+}
+.add-project form .options {
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  background-color: antiquewhite;
+  margin-top: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+}
+
+.add-project form .options span {
+  border: 1px solid black;
+  /* width: 200px; */
+  border-radius: 5px;
+  padding: 3px 10px;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0;
+}

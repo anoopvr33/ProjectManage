@@ -1,0 +1,24 @@
+.profile-view h3 {
+  margin: auto;
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-left: 10px;
+}
+
+.profile-view .contents {
+  margin-top: 20px;
+  /* background-color: antiquewhite; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 10px;
+  gap: 15px;
+}
+
+.profile-view img {
+  height: 150px;
+  border-radius: 10px;
+}
